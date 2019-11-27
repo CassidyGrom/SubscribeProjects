@@ -60,20 +60,33 @@
 
     <h1>My attempt</h1>
     <div class="form-container">
+      <p class="form-email">
+        <strong>Sign up for updates</strong> <br />
+        <br />
+        Enter your email address to receive updates about this project and
+        future investigations:
+      </p>
       <form action="https://whatcounts.com/bin/listctrl" method="POST">
         <input
           type="hidden"
           name="slid"
           value="6700EAF45F07D38EF8D28A9025F730B99F5EDC9A5AB4FEBA"
         />
-        <p class="form-email">
-          <strong>Sign up for updates</strong> <br />
-          <br />
-          Enter your email address to receive updates about this project and
-          future investigations:
-        </p>
+        <input
+          type="hidden"
+          name="cmd"
+          value="subscribe"
+          style="font-family: 'benton-sans';
+        background-color: white;"
+        />
+        <input
+          type="hidden"
+          name="goto"
+          value="https://projects.nj.com/investigations/"
+        />
+        <input type="hidden" name="errors_to" value="" />
         <input type="email" name="email" />
-        <button name="subject" type="submit" value="CSS">Subscribe</button>
+        <button name="subject" type="submit" value="CSS">Subscribe-plz</button>
       </form>
     </div>
 
