@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+
+  <h1>old attempt</h1>
+  <body>
+    <div class="form-container">
+      <p><strong>SIGN UP FOR UPDATES</strong></p>
+      <p>
+        Enter your email address to receive updates about this project and
+        future investigations:
+      </p>
+      <form action="https://whatcounts.com/bin/listctrl" method="POST">
+        <input
+          type="hidden"
+          name="slid"
+          value="6700EAF45F07D38EF8D28A9025F730B99F5EDC9A5AB4FEBA"
+        />
+        <input
+          type="hidden"
+          name="cmd"
+          value="subscribe"
+          style="font-family: 'benton-sans';
+        background-color: white;"
+        />
+        <input
+          type="hidden"
+          name="goto"
+          value="https://projects.nj.com/investigations/"
+        />
+        <input type="hidden" name="errors_to" value="" />
+        <table>
+          <tr>
+            <td>
+              <input type="text" id="email" name="email" size="auto" />
+            </td>
+
+            <td>&nbsp;</td>
+            <td>
+              <input
+                type="hidden"
+                id="format_html"
+                name="format"
+                value="html"
+                size="small"
+              />
+              <input type="submit" value="Subscribe" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <hr />
+
+    <h1>My attempt</h1>
+    <div class="form-container">
+      <form action="https://whatcounts.com/bin/listctrl" method="POST">
+        <p class="form-email">
+          <strong>Sign up for updates</strong> <br />
+          <br />
+          Enter your email address to receive updates about this project and
+          future investigations:
+        </p>
+        <input type="email" name="email" />
+        <button name="subject" type="submit" value="CSS">Subscribe</button>
+      </form>
+    </div>
+
+    <!-- <div class="phoneContent">
+      <p><strong>SIGN UP FOR UPDATES</strong></p>
+      <p>Enter your email address to receive updates about this project and future investigations:</p>
+      <form action="https://whatcounts.com/bin/listctrl" method="POST">
+        <input type="hidden" name="slid" value="6700EAF45F07D38EF8D28A9025F730B99F5EDC9A5AB4FEBA" />
+        <input type="hidden" name="cmd" value="subscribe" />
+        <input type="hidden" name="goto" value="https://projects.nj.com/investigations/" />
+        <input type="hidden" name="errors_to" value="" />
+    
+        <table>
+          <tr>
+            <td><input type="text" id="email" name="email" size="14" /></td>
+            <td>&nbsp;</td>
+            <td>
+              <input type="hidden" id="format_html" name="format" value="html" />
+              <input type="submit" value="Subscribe" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div> -->
+  </body>
+</html>
